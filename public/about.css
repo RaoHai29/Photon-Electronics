@@ -1,0 +1,85 @@
+.about-banner{
+    width: 100%;
+    height:auto
+}
+.about-banner img{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+.about-main{
+    width: 100%;
+    height: auto;
+}
+.about-main p{
+    font-size: 15px;
+    width: 100%;
+    padding: 0 150px;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.about-main .about-h1{
+    font-size: 30px;
+    width: 100%;
+    padding: 0 150px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.about-main .our-mission{
+    width: 100%;
+    display: flex;
+    padding: 0 150px;
+}
+.about-main .our-mission .mission-left{
+    width: 100%;
+    flex: 25%;
+}
+.about-main .our-mission .mission-left img{
+    width: 600px;
+    height: 350px;
+}
+.about-main .our-mission .mission-right{
+    width: 100%;
+    flex: 75%;
+}
+.about-main .our-mission .mission-right h1{
+    text-align: center;
+}
+.about-main .our-mission .mission-right p{
+    text-align: justify;
+    width: 100%;
+    padding: 0 30px;
+    font-size: 17px;
+}
+.footer-wave-path-1 {
+    fill:#ffffff;
+}
+
+@media (max-width: 628px) {
+    .about-banner{
+        margin-top: 60px
+    }
+    
+    .about-banner img{
+        margin-bottom: 40px;
+    }
+    .about-main p{
+        padding: 0 30px;
+    }
+    .about-main .about-h1{
+        padding: 0 30px;
+        margin-top: 0px;
+    }
+    .about-main .our-mission {
+        padding: 0 5px;
+        flex-direction: column;
+    }
+    .about-main .our-mission .mission-left img{
+        width: 345px;
+        height: 265px;
+    }
+    
+}
+

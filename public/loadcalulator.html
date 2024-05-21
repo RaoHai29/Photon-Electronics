@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Load Calculator</title>
+  <link rel="stylesheet" href="load.css">
+</head>
+<body>
+  <div class="calculator">
+    <h2>Load Calculator</h2>
+    <!-- Fan Section -->
+    <div class="appliance-section">
+      <label for="fan-type">Select Fan Type:</label>
+      <select id="fan-type">
+        <option value="ceiling">Ceiling Fan</option>
+        <option value="exhaust">Exhaust Fan</option>
+        <!-- Add more options if needed -->
+      </select>
+      <label for="fan-power">Power Rating (Watts):</label>
+      <input type="number" id="fan-power">
+      <label for="fan-quantity">Fan Quantity:</label>
+      <input type="number" id="fan-quantity">
+      <p class="total-watts" id="fan-total-watts">Fan Total Watts: 0</p>
+    </div>
+
+    <!-- Tubelight Section -->
+    <div class="appliance-section">
+      <label for="tubelight-type">Select Tubelight Type:</label>
+      <select id="tubelight-type">
+        <option value="tube">Tube Light</option>
+        <option value="led">LED Tubelight</option>
+        <!-- Add more options if needed -->
+      </select>
+      <label for="tubelight-power">Power Rating (Watts):</label>
+      <input type="number" id="tubelight-power">
+      <label for="tubelight-quantity">Tubelight Quantity:</label>
+      <input type="number" id="tubelight-quantity">
+      <p class="total-watts" id="tubelight-total-watts">Tubelight Total Watts: 0</p>
+    </div>
+
+    <!-- Add more sections for other appliances -->
+
+    <!-- Total Watts Section -->
+    <div class="total-section">
+      <h3>Total Watts</h3>
+      <p id="total-watts">0</p>
+      <p>Total KW: <span id="total-kw">0</span></p>
+    </div>
+  </div>
+
+  <script src="load.js"></script>
+</body>
+</html>

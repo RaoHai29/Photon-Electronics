@@ -1,0 +1,124 @@
+.grid-system{
+    width: 100%;
+    height: auto;
+    padding: 0 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.grid-system .g-1{
+    width: 480px;
+    height: 600px;
+    margin-right: 50px;
+    border: 2px solid #197375;
+
+}
+.grid-system .g-3{
+    width: 480px;
+    height: 600px;
+    margin-right: 50px;
+   border: 2px solid #197375;
+   margin-top: 50px;
+}
+.grid-system .g-2{
+    width: 480px;
+    height: 600px;
+    
+    border: 2px solid #197375;
+
+}
+.grid-system .g-4{
+    width: 480px;
+    height: 600px;
+    margin-top: 50px;
+   border: 2px solid #197375;
+}
+.grid-system .g-1 h3,.grid-system .g-2 h3,.grid-system .g-3 h3,.grid-system .g-4 h3{
+    text-align: center;
+}
+.grid-system .g-1 h3,.grid-system .g-2 h3,.grid-system .g-3 h3,.grid-system .g-4 h3{
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 2px solid #197375;
+    color: #197375;
+}
+.grid-system .g-1 .grid-p{
+    display: flex;
+    width: 100%;
+}
+.grid-system .g-1 .grid-p .g-pic{
+    width: 100%;
+    flex: 1;
+}
+.grid-system .g-1 .grid-p .g-pic img{
+    width: 250px;
+    height: 500px;
+}
+.grid-system .g-2 .grid-p{
+    display: flex;
+    width: 100%;
+}
+.grid-system .g-2 .grid-p .g-pic{
+    width: 100%;
+    flex: 1;
+}
+.grid-system .g-2 .grid-p .g-pic img{
+    width: 250px;
+    height: 500px;
+}
+
+.grid-system .g-3 .grid-p{
+    display: flex;
+    width: 100%;
+}
+.grid-system .g-3 .grid-p .g-pic{
+    width: 100%;
+    flex: 1;
+}
+.grid-system .g-3 .grid-p .g-pic img{
+    width: 250px;
+    height: 500px;
+}
+
+.grid-system .g-4 .grid-p{
+    display: flex;
+    width: 100%;
+}
+.grid-system .g-4 .grid-p .g-pic{
+    width: 100%;
+    flex: 1;
+}
+.grid-system .g-4 .grid-p .g-pic img{
+    width: 250px;
+    height: 500px;
+}
+.grid-system .g-1 .grid-p .g-text button,.grid-system .g-2 .grid-p .g-text button,.grid-system .g-3 .grid-p .g-text button,.grid-system .g-4 .grid-p .g-text button{
+    width: 90%;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 12px 30px;
+    border-radius: 17px;
+    background-color: #197375;
+    color: white;
+}
+@media (max-width: 628px){
+    .grid-system{
+        padding-left: 10px;
+        height: auto;
+    }
+    .grid-system .g-1,.grid-system .g-2,.grid-system .g-3,.grid-system .g-4{
+        width: 335px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .grid-system .g-1 .grid-p,.grid-system .g-2 .grid-p,.grid-system .g-3 .grid-p,.grid-system .g-4 .grid-p{
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .grid-system .g-1 .grid-p .g-pic img,.grid-system .g-2 .grid-p .g-pic img,.grid-system .g-3 .grid-p .g-pic img,.grid-system .g-4 .grid-p .g-pic img{
+        width: 330px;
+    }
+}

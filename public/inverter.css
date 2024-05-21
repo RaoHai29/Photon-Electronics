@@ -1,0 +1,74 @@
+.inverter-list{
+    padding: 40px 150px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.inverter-list .img-text{
+    padding: 10px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+
+}
+.inverter-list .img-text h5{
+    padding-top: 10px;
+    text-align: center;
+    border: 2px solid #023044;
+}
+
+.about-main .our-mission-1 {
+    width: 100%;
+    display: flex;
+    padding: 0 150px;
+}
+.about-main .our-mission-1 .mission-right {
+    width: 100%;
+    flex: 75%;
+}
+.about-main .our-mission-1 .mission-right h1 {
+    text-align: center;
+}
+.about-main .our-mission-1 .mission-right p {
+    text-align: justify;
+    width: 100%;
+    padding: 0 30px;
+    font-size: 17px;
+}
+.about-main .our-mission-1 .mission-left {
+    width: 100%;
+    flex: 25%;
+}
+.about-main .our-mission-1 .mission-left img {
+    width: 600px;
+    height: 350px;
+}
+@media (max-width: 628px) {
+     .our-mission-1 {
+        padding: 0 5px;
+        flex-direction: column;
+    }
+    
+     .our-mission-1 .mission-left img {
+        width: 345px;
+        height: 265px;
+    }
+    .inverter-list{
+        padding: 30px 5px
+    }
+    .about-main .our-mission-1{
+        padding: 0
+    }
+    .about-main .our-mission-1 .mission-left img{
+        width: 300px;
+        height: 265px;
+    }
+    .about-main .our-mission .mission-left img {
+        width: 300px;
+        height: 265px;
+    }
+}
